@@ -48,7 +48,7 @@ function loadPage(page, pageElement) {
 
 	// Load the page
 
-	img.attr('src', 'samples/Beacon/pages' +  page + '.jpg');
+	img.attr('src', '/' + 'samples/Beacon/pages' + page + '.jpg');
 
 	loadRegions(page, pageElement);
 
